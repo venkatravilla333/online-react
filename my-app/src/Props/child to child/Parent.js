@@ -4,12 +4,13 @@ import Child2 from './Child2'
 
 function Parent() {
 
-var [x, setX] = useState(10)
+  var [x, setX] = useState(10)
   console.log(x)
   
   function test(data) {
     setX(data)
   }
+
   return (
     <div>
       <h4>Parent com: {x}</h4>
