@@ -1,7 +1,6 @@
 import { DECREASE, INCREASE } from "./countActions"
 
 
-
 var initialState = {
   count:0
 }

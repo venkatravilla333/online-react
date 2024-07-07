@@ -2,7 +2,8 @@ import React from 'react'
 import B from './B'
 import C from './C'
 
-import store  from '../Redux/store'
+// import store  from '../Redux/store'
+import { store } from '../toolkit/store'
 
 import { Provider } from 'react-redux'
 

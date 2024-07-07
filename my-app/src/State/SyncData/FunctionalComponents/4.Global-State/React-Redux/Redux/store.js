@@ -1,9 +1,17 @@
 
-import { createStore } from 'redux'
-import { countReducer } from './countReducer'
+import { applyMiddleware, combineReducers, createStore } from 'redux'
+import { countReducer } from './count/countReducer'
+import { cakeReducer } from './cake/cakeReducer'
+import { userReducer } from './user/userReducer'
+import { composeWithDevTools } from 'redux-devtools-extension';
 
 
+var rootReducer = combineReducers({
+  cakeReducer: cakeReducer,
+  countReducer: countReducer,
+  userReducer: userReducer
+})
 
- var store = createStore(countReducer)
+ var store = createStore(rootReducer, composeWithDevTools(applyMiddleware()))
 
  export default store
