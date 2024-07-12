@@ -5,7 +5,9 @@
 // import Parent from "./Props/child to parent/Parent";
 // import Parent from "./Props/parent to child/Parent";
 
-import A from "./State/AsyncData/Functional-components/redux & react/react-components/A";
+import A from "./State/AsyncData/Functional-components/toolkit & react/react-components/A";
+
+// import A from "./State/AsyncData/Functional-components/redux & react/react-components/A";
 
 // import A from "./State/AsyncData/Functional-components/Local-state & State-lifting & context-Api/A";
 
@@ -30,6 +32,7 @@ function App() {
       {/* <Parent/> */}
       {/* <A/> */}
       {/* <Getdata/> */}
+      {/* <A/> */}
       <A/>
     </div>
   );
