@@ -1,7 +1,8 @@
 import React, { useState } from 'react'
 
 import {useDispatch, useSelector} from 'react-redux'
-import { buyCake } from '../toolkit/slices/cakeSlice/cakeSlice';
+import { buyCake } from '../Redux/cake/cakeActions';
+// import { buyCake } from '../toolkit/slices/cakeSlice/cakeSlice';
 // import { decreaseCount, increaseCount } from '../Redux/count/countActions'
 // import { buyCake } from '../Redux/cake/cakeActions'
 // import { updateName } from '../Redux/user/userActions'

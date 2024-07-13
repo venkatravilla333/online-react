@@ -5,7 +5,13 @@
 // import Parent from "./Props/child to parent/Parent";
 // import Parent from "./Props/parent to child/Parent";
 
-import A from "./State/AsyncData/Functional-components/toolkit & react/react-components/A";
+import Parent from "./Destructuring/Parent";
+import List from "./List-Rendering/List";
+import A from "./State/SyncData/FunctionalComponents/4.Global-State/React-Redux/React-Components/A";
+
+// import A from "./State/SyncData/FunctionalComponents/4.Global-State/ContextAPI/A";
+
+// import A from "./State/AsyncData/Functional-components/toolkit & react/react-components/A";
 
 // import A from "./State/AsyncData/Functional-components/redux & react/react-components/A";
 
@@ -33,7 +39,8 @@ function App() {
       {/* <A/> */}
       {/* <Getdata/> */}
       {/* <A/> */}
-      <A/>
+      {/* <List/> */}
+      <Parent/>
     </div>
   );
 }

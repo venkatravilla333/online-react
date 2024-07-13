@@ -1,8 +1,13 @@
-import React from 'react'
+import React, { useContext } from 'react'
+import { countContext } from './A'
 
 function H() {
+  var [count, setCount] = useContext(countContext)
   return (
-    <div>H</div>
+    <div>
+      <h3>H: Count: {count}</h3>
+      <button onClick={()=>setCount(count+1)}>update count</button>
+    </div>
   )
 }
 
