@@ -7,6 +7,7 @@
 
 import Parent from "./Destructuring/Parent";
 import List from "./List-Rendering/List";
+import Render from "./Performance/Conditional-Rendering/Render";
 import A from "./State/SyncData/FunctionalComponents/4.Global-State/React-Redux/React-Components/A";
 
 // import A from "./State/SyncData/FunctionalComponents/4.Global-State/ContextAPI/A";
@@ -40,7 +41,8 @@ function App() {
       {/* <Getdata/> */}
       {/* <A/> */}
       {/* <List/> */}
-      <Parent/>
+      {/* <Parent/> */}
+      <Render/>
     </div>
   );
 }
