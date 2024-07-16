@@ -29,9 +29,9 @@ function Render() {
   
   //ternary operator
 
-//   return (
-//     login ? <Profile data={{ login, setLogin }} /> : <Login data={{login, setLogin}} />
-  // )
+  return (
+    login ? <Profile data={{ login, setLogin }} /> : <Login data={{login, setLogin}} />
+  )
 
   //short circuit
 

@@ -7,7 +7,9 @@
 
 import Parent from "./Destructuring/Parent";
 import List from "./List-Rendering/List";
+import Ref from "./Normal vs State vs Ref/Ref";
 import Render from "./Performance/Conditional-Rendering/Render";
+import Fragment from "./Performance/Fragment/Fragment";
 import A from "./State/SyncData/FunctionalComponents/4.Global-State/React-Redux/React-Components/A";
 
 // import A from "./State/SyncData/FunctionalComponents/4.Global-State/ContextAPI/A";
@@ -42,7 +44,9 @@ function App() {
       {/* <A/> */}
       {/* <List/> */}
       {/* <Parent/> */}
-      <Render/>
+      {/* <Render/> */}
+      {/* <Fragment/> */}
+      <Ref/>
     </div>
   );
 }
