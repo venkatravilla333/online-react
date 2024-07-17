@@ -5,11 +5,16 @@
 // import Parent from "./Props/child to parent/Parent";
 // import Parent from "./Props/parent to child/Parent";
 
+// import Hello from "./CSS/Inline/Inline";
+// import Inline from "./CSS/Inline/Inline";
+import  X from "./CSS/Inline/Inline";
 import Parent from "./Destructuring/Parent";
 import List from "./List-Rendering/List";
 import Ref from "./Normal vs State vs Ref/Ref";
 import Render from "./Performance/Conditional-Rendering/Render";
 import Fragment from "./Performance/Fragment/Fragment";
+import InputRef from "./Reference(Refs)/InputRef";
+import Timer from "./Reference(Refs)/Timer";
 import A from "./State/SyncData/FunctionalComponents/4.Global-State/React-Redux/React-Components/A";
 
 // import A from "./State/SyncData/FunctionalComponents/4.Global-State/ContextAPI/A";
@@ -46,7 +51,11 @@ function App() {
       {/* <Parent/> */}
       {/* <Render/> */}
       {/* <Fragment/> */}
-      <Ref/>
+      {/* <InputRef/> */}
+      {/* <Timer/> */}
+      {/* <Inline/> */}
+      {/* <Hello/> */}
+      <X/>
     </div>
   );
 }
