@@ -5,6 +5,7 @@
 // import Parent from "./Props/child to parent/Parent";
 // import Parent from "./Props/parent to child/Parent";
 
+import Parent from "./Client-Side-Routing/Parent";
 import Myparent from "./Portals/Myparent";
 
 
@@ -62,7 +63,8 @@ function App() {
       {/* <Hello/> */}
       {/* <X/> */}
       {/* <Parent/> */}
-      <Myparent/>
+      {/* <Myparent/> */}
+      <Parent/>
     </div>
   );
 }

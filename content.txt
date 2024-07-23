@@ -635,4 +635,49 @@ In summary, useSelector is used to read data from the Redux store, and useDispat
          -Context API
 
          -redux
+
+
+         16) Routing
+    =======
+
+   => MPA vs SPA
+      ----------
+
+    -With MPAs, every time we want to see something new, the whole web page has to reload
+
+     With SPAs no need to reload the whole page when we see some new content.
+     
+     In MPA for every request whole page getting reload, In SPA for every request a part of page getting reload.
+
+    -MPAs will have the entire page getting reloaded Where as SPAs will have the main page loaded
+
+     once and then sub page sections are changing without refresh and this is handeled by JS inside browser. 
+
+    -MPAs are traditional where as SPAs are modren approach.
+   
+    -To make a single page application we have to impliment the client side routing by using
+
+     react-router-dom library.
+
+   => Install react-router-dom
+
+     Need to install the react-router-dom library to create routing in react, it is dom version.
+
+       => npm i react-router-dom                  
+
+   => Configure Routing
+
+      First step is to configure the router is giving top level or height order component named
+
+      <BorwserRouter/>
+   
+      All the routes and components will be wrapped inside the <BrowserRouter/> component, as 
+
+      it will store the URLs internally, using which you actually route through all the components or basically the entire application. It keeps track of changes and navigation history.
+
+      Routes and Route =>
+
+      When we click on the link which will be in the URL and The Routes component will look for the related child route configured with the same URL value.
+
+      To impliment the SPA, react router provided us Link component.
   
