@@ -6,7 +6,12 @@
 // import Parent from "./Props/parent to child/Parent";
 
 import Parent from "./Client-Side-Routing/Parent";
+import One from "./CSS/Css-modules/One";
+import Two from "./CSS/Css-modules/Two";
+import Inline from "./CSS/Inline/Inline";
+import External from "./CSS/Style-sheet/External";
 import Myparent from "./Portals/Myparent";
+
 
 
 // import Hello from "./CSS/Inline/Inline";
@@ -64,7 +69,11 @@ function App() {
       {/* <X/> */}
       {/* <Parent/> */}
       {/* <Myparent/> */}
-      <Parent/>
+      {/* <Parent/> */}
+      {/* <Inline/> */}
+      {/* <External/> */}
+      <One />
+      <Two />
     </div>
   );
 }

@@ -1,23 +1,25 @@
 import React from 'react'
 
 import './style.css'
-import { Link } from 'react-router-dom';
+import { Link, NavLink } from 'react-router-dom';
 
 function Header() {
   return (
     <div className='header'>
       <ul>
         <li>
-          <Link to='/home'>Home</Link>
+          <NavLink to='/home'>Home</NavLink>
         </li>
         <li>
-          <Link to='/about'>About</Link>
+          <NavLink to='/about' style={({isActive}) => {
+            return isActive ? {color:'yellow'} : {color:'red'}
+          }}>About</NavLink>
         </li>
         <li>
-          <Link to='/products'>Products</Link>
+          <NavLink to='/products'>Products</NavLink>
         </li>
         <li>
-          <Link to='/login'>Login</Link>
+          <NavLink to='/login'>Login</NavLink>
         </li>
       </ul>
     </div>
