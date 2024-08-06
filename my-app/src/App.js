@@ -5,12 +5,18 @@
 // import Parent from "./Props/child to parent/Parent";
 // import Parent from "./Props/parent to child/Parent";
 
-import Parent from "./Client-Side-Routing/Parent";
-import One from "./CSS/Css-modules/One";
-import Two from "./CSS/Css-modules/Two";
-import Inline from "./CSS/Inline/Inline";
-import External from "./CSS/Style-sheet/External";
-import Myparent from "./Portals/Myparent";
+import Parent from "./Performance/Virtual-Dom/How-Prevent/Parent";
+
+// import Parent from "./Performance/Virtual-Dom/Re-rendeer/Parent";
+
+// import Parent from "./Performance/Virtual-Dom/Initial-render/Parent";
+
+// import Parent from "./Client-Side-Routing/Parent";
+// import One from "./CSS/Css-modules/One";
+// import Two from "./CSS/Css-modules/Two";
+// import Inline from "./CSS/Inline/Inline";
+// import External from "./CSS/Style-sheet/External";
+// import Myparent from "./Portals/Myparent";
 
 
 
@@ -72,8 +78,9 @@ function App() {
       {/* <Parent/> */}
       {/* <Inline/> */}
       {/* <External/> */}
-      <One />
-      <Two />
+      {/* <One /> */}
+      {/* <Two /> */}
+      <Parent/>
     </div>
   );
 }
