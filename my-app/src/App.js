@@ -5,8 +5,10 @@
 // import Parent from "./Props/child to parent/Parent";
 // import Parent from "./Props/parent to child/Parent";
 
-import Heavy from "./Performance/Virtual-Dom/Heavy";
-import Parent from "./Performance/Virtual-Dom/How-Prevent/Parent";
+import Parent from "./State/SyncData/ClassComponents/Parent";
+
+// import Heavy from "./Performance/Virtual-Dom/Heavy";
+// import Parent from "./Performance/Virtual-Dom/How-Prevent/Parent";
 
 // import Parent from "./Performance/Virtual-Dom/Re-rendeer/Parent";
 
@@ -82,7 +84,10 @@ function App() {
       {/* <One /> */}
       {/* <Two /> */}
       {/* <Parent/> */}
-      <Heavy/>
+      {/* <Heavy/> */}
+      {/* <Parent/> */}
+      {new Parent().render() }
+      
     </div>
   );
 }
