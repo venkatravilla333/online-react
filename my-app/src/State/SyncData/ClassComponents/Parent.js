@@ -4,24 +4,26 @@ import Child from './Child'
 export class Parent extends Component {
   constructor(props) {
     super(props)
+  
     this.state = {
        count: 0
     }
+    // this.increase = this.increase.bind(this)
   }
 
-  updateData = () => {
-    console.log('hello')
+  increase = ()=>{
     this.setState({
-      count : this.state.count+1
+      count: this.state.count+1
     })
+    // this.state.count = this.state.count + 1 //direct
   }
   render() {
-    console.log('render')
+    var {count} = this.state
     return (
       <div>
-        <h2>Count: {this.state.count}</h2>
-        <button onClick={this.updateData}>update data</button>
-        <Child count={this.state.count} />
+        <h2>Count: {count}</h2>
+        <button onClick={this.increase}>increase</button>
+        <Child count={count} />
       </div>
     )
   }

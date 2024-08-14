@@ -6,6 +6,7 @@
 // import Parent from "./Props/parent to child/Parent";
 
 import Parent from "./State/SyncData/ClassComponents/Parent";
+import A from "./State/SyncData/FunctionalComponents/4.Global-State/React-Redux/React-Components/A";
 
 // import Heavy from "./Performance/Virtual-Dom/Heavy";
 // import Parent from "./Performance/Virtual-Dom/How-Prevent/Parent";
@@ -86,7 +87,8 @@ function App() {
       {/* <Parent/> */}
       {/* <Heavy/> */}
       {/* <Parent/> */}
-      {new Parent().render() }
+      {/* <Parent/> */}
+      <A/>
       
     </div>
   );
