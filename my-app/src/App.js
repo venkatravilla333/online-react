@@ -5,8 +5,16 @@
 // import Parent from "./Props/child to parent/Parent";
 // import Parent from "./Props/parent to child/Parent";
 
-import Parent from "./State/SyncData/ClassComponents/Parent";
-import A from "./State/SyncData/FunctionalComponents/4.Global-State/React-Redux/React-Components/A";
+import Parent from "./Class-Com/LifeCycle-Methods/ErrorBoundry/Parent";
+
+// import RunsOnlyOnce from "./Class-Fun/FunCom/RunsOnlyOnce";
+// import Container from "./Class-Fun/FunCom/Container";
+// import Parent from "./Class-Fun/FunCom/Parent";
+
+// import Parent from "./Class-Com/LifeCycle-Methods/Parent";
+
+// import Parent from "./State/SyncData/ClassComponents/Parent";
+// import A from "./State/SyncData/FunctionalComponents/4.Global-State/React-Redux/React-Components/A";
 
 // import Heavy from "./Performance/Virtual-Dom/Heavy";
 // import Parent from "./Performance/Virtual-Dom/How-Prevent/Parent";
@@ -88,8 +96,10 @@ function App() {
       {/* <Heavy/> */}
       {/* <Parent/> */}
       {/* <Parent/> */}
-      <A/>
-      
+      {/* <A/> */}
+      {/* <Parent/> */}
+      {/* <Container/> */}
+      <Parent/>
     </div>
   );
 }
